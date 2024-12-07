@@ -3,11 +3,9 @@ import React from "react";
 import styles from "./HeaderCheckout.module.css";
 import Link from "next/link";
 import { AiFillLock, AiOutlineCheck } from "react-icons/ai";
-import { useSearchParams } from "next/navigation";
 
-export function HeaderCheckout() {
-    const searchParams = useSearchParams();
-    const currentStep = Number(searchParams.get("step")) || 1;
+export function HeaderCheckout({searchParams}) {
+  const currentStep = Number(searchParams?.step) || 1;
     const steps = [
       { number: 1, title: "Cart" },
       { number: 2, title: "Checkout" },
