@@ -1,0 +1,23 @@
+.resume {
+    margin-top: 30px;
+}
+
+.resume button,
+.resume a {
+    display: block;
+    width: 100% !important;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+}

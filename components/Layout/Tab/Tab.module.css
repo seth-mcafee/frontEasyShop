@@ -1,0 +1,35 @@
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.leftTabs,
+.rightTabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  font-weight: normal;
+  transition: all 0.2s ease;
+  display: flex;
+}
+
+.activeTab {
+  border-bottom-color: #f02d34;
+  color: #f02d34;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 8px;
+  display: inline-flex;
+}
+
+.tabContent {
+  padding: 20px;
+  position: relative;
+}

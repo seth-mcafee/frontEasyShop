@@ -1,0 +1,8 @@
+.productContainer {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+  margin-top: 60px;
+  color: #324d67;
+}

@@ -1,0 +1,30 @@
+.cart {
+    position: fixed;
+    z-index: 1000;
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    padding: 40px;
+    top: 0;
+    right: -20%;
+    border: 1px solid #eee;
+    transition: all 300ms ease;
+}
+
+.show {
+    right: 0;
+}
+
+.cartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cartHeader button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}

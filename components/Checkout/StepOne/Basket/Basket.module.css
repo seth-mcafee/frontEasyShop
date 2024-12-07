@@ -1,0 +1,74 @@
+.basket > h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.block {
+    background: #eee;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.item > img {
+    width: 190px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.info > div p:first-child {
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.quantity {
+    margin-left: 10px;
+}
+
+.quantity > p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.controlers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.controlers button {
+    border: none;
+    background-color: transparent;
+    color: var(--color-primary);
+    font-size: 20px;
+    cursor: pointer;
+}

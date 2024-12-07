@@ -1,0 +1,116 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.left {
+    font-size: 25px;
+    color: grey;
+}
+
+.center {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.center > div {
+    display: flex;
+    align-items: center;
+}
+
+.center div:last-child .space {
+    display: none;
+}
+
+.center span {
+    color: #4e4e4e;
+}
+
+.number {
+    border: 3px solid #4e4e4e;
+    font-size: 12px;
+    border-radius: 100px;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1px;
+    padding-top: 1px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.number svg {
+    display: none;
+}
+
+.active .number {
+    border-color: var(--color-primary);
+}
+
+.success .number {
+    color: var(--color-primary);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.success .number svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    color: white;
+    width: 14px;
+    height: 14px;
+}
+
+.space {
+    width: 100px;
+    height: 3px;
+    background-color: #4e4e4e;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.success .space {
+    background-color: var(--color-primary);
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right > div {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #4e4e4e;
+    padding-left: 10px;
+}
+
+.right svg {
+    color: #4bb543;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.right span:first-child {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.right span:last-child {
+    color: #4e4e4e;
+    font-size: 11px;
+}

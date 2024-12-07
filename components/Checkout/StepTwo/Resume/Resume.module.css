@@ -1,0 +1,78 @@
+.resume > h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.block,
+.blockTotal {
+    background-color: #eee;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4e4e4e;
+    padding: 10px 0;
+}
+
+.product:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+
+.product > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product > div p {
+    font-weight: bold;
+    margin-bottom: -5px;
+    padding-right: 50px;
+}
+
+.product > p {
+    font-weight: bold;
+}
+
+.product > p span {
+    display: block;
+    text-align: end;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.blockTotal > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.blockTotal > span {
+    font-weight: bold;
+}
+
+.blockTotal > div > span:last-of-type {
+    font-weight: bold;
+}
+
+.blockTotal button {
+    width: 100%;
+}

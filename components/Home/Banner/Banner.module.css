@@ -1,0 +1,57 @@
+.banner {
+  padding: 100px 40px;
+  background-color: var(--color-primary);
+  position: relative;
+  height: 400;
+  line-height: 1;
+  color: white;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.bannerDesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerDesc img {
+  position: absolute;
+  top: -16%;
+  left: 25%;
+  width: 780px;
+}
+
+.left h3 {
+  font-weight: 900;
+  font-size: 80px;
+  margin-left: 25px;
+}
+
+.left p {
+  margin: 18px;
+}
+
+.right {
+  line-height: 1.4;
+}
+
+.right button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: white;
+  color: var(--color-primary);
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.right h3 {
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.right p {
+  font-size: 18px;
+}
