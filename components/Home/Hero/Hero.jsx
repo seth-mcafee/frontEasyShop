@@ -7,7 +7,7 @@ export function Hero() {
     <div className={styles.hero}>
       <p>Este Black Friday</p>
 
-      <h3>Llévate por menos de 1000 euros el nuevo</h3>
+      <h3>Llévate por menos de 1000 euros</h3>
 
       <h1>Mac Air M3</h1>
 
