@@ -5,9 +5,9 @@ import styles from "./Hero.module.css";
 export function Hero() {
   return (
     <div className={styles.hero}>
-      <p>Lo que quieras</p>
+      <p>Este Black Friday</p>
 
-      <h3>Soy un h3</h3>
+      <h3>Llévate por menos de 1000 euros el nuevo</h3>
 
       <h1>Mac Air M3</h1>
 
