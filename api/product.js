@@ -21,7 +21,14 @@ export class Product {
         try {
             const url = `${ENV.API_URL}/${ENV.ENDPOINTS.PRODUCT}/${id}`
 
-            const response = await fetch(url);
+            const response = await fetch(url, {
+                method: "GET",
+                headers: {
+                    "Cache-Control": "no-cache, no-store, must-revalidate",
+                    Pragma: "no-cache",
+                    Expires: "0",
+                },
+            });
             const result = await response.json();
 
             if(!result.status) throw result
