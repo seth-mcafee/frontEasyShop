@@ -1,12 +1,21 @@
+.input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .input input {
+  border: #4e4e4e;
   padding: 5px;
   border-radius: 8px;
 }
 
 .input button {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border: var(--color-primary);
   color: white;
   padding: 5px;
   border-radius: 8px;
+  font-size: 18px;
+  line-height: 18px;
 }
