@@ -17,7 +17,7 @@ export function SearchInput() {
         
     }
   return (
-    <div>
+    <div className={styles.input}>
       <input value={input} type="text" placeholder="Find a product" onChange={(e) => setInput(e.target.value)} />
       <button onClick={onSearch}>
         <AiOutlineSearch />
