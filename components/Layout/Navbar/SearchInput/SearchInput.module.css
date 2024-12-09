@@ -1,0 +1,12 @@
+.input input {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.input button {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
