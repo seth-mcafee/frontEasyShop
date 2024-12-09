@@ -23,7 +23,7 @@ export function Hero() {
       <div className={styles.desc}>
         <h5>Description</h5>
         <p>
-          2 nucleos, 100gb ram, carga rápida, usb thunderbolt, color rojo nuevo,{" "}
+          4 nucleos, 12gb ram, carga rápida, usb thunderbolt, color rojo nuevo,{" "}
         </p>
       </div>
     </div>
