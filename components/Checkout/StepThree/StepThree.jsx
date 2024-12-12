@@ -8,7 +8,7 @@ export function StepThree() {
     <div className={styles.stepThree}>
         <AiOutlineCheckCircle />
 
-        <h2>¡Sucesfully Transaction!</h2>
+        <h2>¡Sucesfull Transaction!</h2>
 
         <Link href={'/account'} className='btn btn-primary'>Show orders</Link>
     </div>
