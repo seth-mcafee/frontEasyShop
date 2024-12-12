@@ -12,7 +12,7 @@ export const AddAddress = (props) => {
 
   return (
     <>
-        <button className={`btn btn-primary ${styles.addBtn}`} onClick={onOpenClose}>Crear</button>
+        <button className={`btn btn-primary ${styles.addBtn}`} onClick={onOpenClose}>Create</button>
         <BasicModal show={show} onClose={onOpenClose} title="Create new address">
             <AddressForm onClose={onOpenClose} onReload={onReload} />
         </BasicModal>
