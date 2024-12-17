@@ -28,6 +28,7 @@ export class Product {
                     Pragma: "no-cache",
                     Expires: "0",
                 },
+                cache: "no-store",
             });
             const result = await response.json();
 
